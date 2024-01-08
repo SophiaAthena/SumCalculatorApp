@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Sum Calculator</title>
 </head>
+
 <body>
 
     <div class="calculator">
+        <img src="images\calculator.jpg" alt="Calculator Image" width="100">
         <h1>Sum Calculator</h1>
         <label for="num1">Enter Number 1:</label>
         <input type="text" id="num1" oninput="validateInput(this)">
-        
+
         <label for="num2">Enter Number 2:</label>
         <input type="text" id="num2" oninput="validateInput(this)">
-        
+
         <button onclick="calculateSum()">Calculate Sum</button>
 
         <div id="result"></div>
@@ -23,5 +26,5 @@
 
     <script src="script.js"></script>
 </body>
-</html>
 
+</html>
